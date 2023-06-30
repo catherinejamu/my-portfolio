@@ -21,7 +21,7 @@
 </section>
 
 <!-- Slideshow section -->
-<section class="slideshow">
+<section class="slideshow" style="width: 50%; text-align: center;">
     <div class="slideshow-container">
         <?php
         // Array of image filenames

@@ -24,8 +24,8 @@ if ($result->num_rows > 0) {
                 <?php
                 // Display each project
                 while ($row = $result->fetch_assoc()) {
-                    $projectName = $row['project_name'];
-                    $description = $row['description'];
+                    $projectName = $row["project_name"];
+                    $description = $row["description"];
 
                     echo '<div class="project">
                             <h3 class="project-name">' . $projectName . '</h3>
